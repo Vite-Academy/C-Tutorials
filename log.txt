@@ -1,8 +1,9 @@
 Using C/C++ on Linux in VS Code
 https://code.visualstudio.com/docs/cpp/config-linux
 
+Using C/C++ on Mac OS:
+https://stackoverflow.com/questions/32337643/how-can-i-run-a-c-program-on-mac-os-x-using-terminal
 #Then you can compile your code with by simply running gcc as in the next line without having to fire up the big, ugly software development GUI called Xcode:
 gcc -Wall -o program program.c
-
 #Note: On newer versions of OS X, you would use clang instead of gcc, like this:
 clang program.c -o program
